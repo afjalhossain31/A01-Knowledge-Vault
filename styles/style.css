@@ -154,3 +154,81 @@ height: 60px;
 }
 
 
+/* Notes section */
+.note-section {
+  width: 100%;
+  padding: 96px 0 120px;
+}
+.note-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.note-header {
+  text-align: center;
+  margin-bottom: 72px;       
+}
+.note-header .note-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #001931;
+  line-height: 100%;
+  margin-bottom: 25px;            
+}
+
+.note-subtitle {
+  font-size: 16px;
+  color: #627382;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Four cards */
+.note-four-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.note-four-card .note-card {
+  flex: 1 1 0;                      
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 32px 24px 28px;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+}
+.note-icon-wrap {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+  border-radius: 9999px;
+  background: #ff5c5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.note-four-card .note-card .note-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #020617;
+  margin-bottom: 8px;
+}
+.note-text {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #627382;
+}
+
+/* complete note section  */
+
+
+
