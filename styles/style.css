@@ -230,5 +230,90 @@ height: 60px;
 
 /* complete note section  */
 
+.brain-section {
+  width: 100%;
+  padding: 96px 0 120px;
+  background: #ffffff;
+}
+.brain-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+/* Left image */
+.brain-image-wrap {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+}
+/* Right side content  */
+.brain-content {
+  flex: 1 1 0;
+}
+/* green dot */
+.brain-label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #30B868;
+  margin-bottom: 12px;
+}
+.brain-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain-description {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #627382;
+  margin-bottom: 20px;
+  max-width: 420px;
+}
+.brain-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.brain-list li {
+  position: relative;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+  margin-bottom: 6px;
+}
+.brain-list li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  transform: translateY(-50%);
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: #30B868;
+}
+.brain-list a {
+  font-size: 14px;
+  color: #001931;
+  text-decoration: none;
+}
+
+.brain-list a:hover {
+  text-decoration: underline;
+}
+
+/* Brain-section complete */
+
 
 
